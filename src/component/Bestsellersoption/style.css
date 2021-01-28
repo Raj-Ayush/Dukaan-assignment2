@@ -1,0 +1,31 @@
+
+.leftcomponent{
+    margin-top: 10%;
+    padding-left: 25%;
+}
+#leftbtn {
+    width:100%;
+    padding:0px;
+    margin-top: 8%;
+    border-radius: 0px;
+    text-align: left;
+    font-size: 1.2vw;
+}
+#leftbtn:focus{
+    border-right: 2px solid #146eb4;
+    outline: none;
+    box-shadow: none !important;
+    color:#146eb4;
+}
+
+.categories{
+    margin-top: 15px;
+    color:#146eb4;
+    font-size: 1.4vw;
+    
+}
+.categories img{
+    margin-left: 5px;
+    height: 12px;
+    cursor: pointer;
+}

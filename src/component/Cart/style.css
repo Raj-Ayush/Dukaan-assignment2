@@ -1,0 +1,38 @@
+.cart{
+    margin: 32px;
+    padding-left: 0;
+}
+.bagdata{
+    width:100%;
+    padding:0px;
+    margin-top: 2vw;
+    border-radius: 0px;
+    text-align: left;
+    margin:4vw 0px 0vw 0px;
+    font-size: 2vw;
+}
+.bagdata span{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #146eb4;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.cart img{
+    margin-top: 1vw;
+    height: 20vw;
+    width: 20vw;
+    filter: brightness(99%);
+}
+.cart h4{
+    margin: 32px 0px 32px 0px;
+    text-align: center;
+    font-size: 1.8vw;
+}
+.cart p{
+    text-align: center;
+    line-height: 0.5;
+    color: #808080;
+    font-size: 1.2vw;
+}

@@ -1,0 +1,98 @@
+.bestseller{
+    margin:32px;
+    padding: 0px;
+}
+.bestseller h3{
+    font-size: 2vw;
+}
+.heading{
+    margin:50px 0px 24px 0px;
+
+}
+
+.card{
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border: none;
+    margin-bottom: 32px;
+}
+.card-title{
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    text-align: left;
+    padding-top: -5px;
+}
+.card-image img{
+    height: 12vw;
+    width: 12vw;
+}
+
+.cardbody{
+    display: flex;
+}
+.body{
+    margin:1vw;
+    flex:1
+}
+.card-price{
+    display: flex;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 3vw;
+
+}
+.AddtoCart Button {
+   padding:2px;
+   background-color: transparent;
+   text-decoration: none;
+   color: #146eb4;
+   border: none;
+   font-size: 2vw;
+   line-height: 0.33;
+   outline: none;
+}
+.AddtoCart Button:active{
+    transform: scale(0.98); 
+    background-color: transparent;
+}
+.AddtoCart Button:focus {
+    background-color: transparent;
+    color:  #146eb4;
+    box-shadow: none !important;
+}
+
+.AddtoCart Button:hover{
+    background-color: transparent;
+    color:  #146eb4;
+}
+.AddtoCart .minus span{
+    font-size: 25px;
+    line-height: 0;
+}
+.exact_price{
+    padding-left: 15px;
+    text-decoration: line-through;
+    color:  #808080;
+}
+.AddtoCart{
+    position: relative;
+    border: 2px solid #146eb4;
+    width: 8vw;
+    border-radius: 10px;
+    height: 3vw;
+    display: flex;
+    margin-top: 15%;
+    
+}
+
+.quantity{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #146eb4;
+    color: white;
+    border-radius: 5px;
+}

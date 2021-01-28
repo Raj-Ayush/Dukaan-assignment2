@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    background-color: #146eb4;
+    height: 45px;
+}
+.header div{
+    flex: 1;
+}
+#head{ 
+    text-align: right;
+    margin-left: 30vw;
+}
+
+.sharename ,#head{ 
+    margin-top: 5px;
+    height: 5vw;
+    color: white;
+}
+.sharename{
+    text-align: left;
+    margin-left: 6vw;
+}
+
+h5{
+    margin-left: 11vw;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 12.5vw;
+    padding-left: -20px;
+    padding-bottom: 0px;
+    line-height: 1.5;
+    height: 25px;
+    font-size: 1.5vw;
+}
+.sharename img{
+    margin-left: 8px;
+}
