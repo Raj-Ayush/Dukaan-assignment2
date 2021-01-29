@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { iceCream } from './../Data/iceCreams';
 import './style.css';
 import { Button, ButtonGroup } from 'react-bootstrap';
@@ -10,6 +10,18 @@ import { Button, ButtonGroup } from 'react-bootstrap';
 **/
 
 const Bestseller = (props) => {
+  const [count, setCount] = useState(new Array(iceCream.length+1).fill(0));
+  const addnumber =(value)=>{
+      const temp = count;
+      temp[value]= temp[value]+1;
+      setCount([...temp]);
+  }
+  const decreaseNumber =(value)=>{
+    const temp = count;
+    temp[value]= temp[value]-1;
+    setCount([...temp]);
+    console.log(count);
+  }
   const creamList= iceCream.map((item)=>
             <div className="card" key={item.id}> 
               <div className="cardbody">
@@ -36,7 +48,14 @@ const Bestseller = (props) => {
                   </div>
                 </div>
                 <ButtonGroup className="AddtoCart mr-2" aria-label="Second group">
-                  <Button variant="light">-</Button> <Button disable variant="light">Add</Button> <Button variant="light">+</Button>
+                  {count[item.id] === 0? null: 
+                  <Button variant="light" onClick={() => decreaseNumber(item.id)}>-</Button>
+                  }
+                  <Button  variant="light" id="add">
+                    {count[item.id]===0?
+                  "Add":
+                  count[item.id]}
+                  </Button> <Button variant="light" onClick={() => addnumber(item.id)}>+</Button>
               </ButtonGroup>
               </div>  
             </div>

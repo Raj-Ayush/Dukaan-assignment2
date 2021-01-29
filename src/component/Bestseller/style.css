@@ -54,6 +54,7 @@
    font-size: 2vw;
    line-height: 0.33;
    outline: none;
+   
 }
 .AddtoCart Button:active{
     transform: scale(0.98); 
@@ -85,8 +86,7 @@
     border-radius: 10px;
     height: 3vw;
     display: flex;
-    margin-top: 15%;
-    
+    margin-top: 15%;   
 }
 
 .quantity{

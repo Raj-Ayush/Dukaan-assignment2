@@ -5,7 +5,7 @@ import './style.css';
 import Bestseller from '../Bestseller';
 import Cart from './../Cart';
 import Footer from './../Footer/index';
-import Header from '../Header';
+import Header from './../Header/index';
 
 /**
 * @author
